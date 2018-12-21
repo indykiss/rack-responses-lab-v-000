@@ -3,7 +3,7 @@ class App
   def call(env)
     resp = Rack::Response.new
  
-    num_1 = Kernel.rand(1..24)
+    num_1 = Kernel.rand(1..11)
     num_2 = Kernel.rand(12..24)
 
     if num_1==num_2 && num_2==num_3
